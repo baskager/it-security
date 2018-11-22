@@ -32,3 +32,19 @@ Measurements could be redundant storage (RAID), backups, checksums, storing data
 
 Failover (reduntant nodes in the data infrastructure),Load-balancing, disaster recovery.
 
+# Components of Information Security
+
+## Primitives
+***"Cryptographic primitives"*** 
+Basic concepts of cryptography based on mathmetics
+
+## Policies
+Internal and external rules for organisations.
+
+Laws, certifications, "common sense", company policy.
+
+## Products
+Implementations of Primivites and Policies. Software hardware and behaviour.
+
+End goal is a safer organisation.
+
