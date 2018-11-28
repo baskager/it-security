@@ -38,6 +38,36 @@ Failover (reduntant nodes in the data infrastructure),Load-balancing, disaster r
 ***"Cryptographic primitives"*** 
 Basic concepts of cryptography based on mathmetics
 
+"Any one who considers arithmetical methods of producing random digits is, of course, in a state of sin." ~ John von Neuman
+
+### Entropy
+The randomness collected by a operating system or application
+
+## Encryption
+Symetric encryption is by definition not less secure than asymmetric encryption. The security depends more key management than which technique is used.
+### Substitution
+The greek scytatale, ceasar cypher
+### Transformation
+Enigma machine
+### Symetric
+One key for both party, which is convenient and not complicated. Hard to keep the key safe.
+### Asymetric
+Two keys, one for encrypting and one for decrypting. More complicated but more secure.
+
+### DES - Data Encryption Standard
+
+### AES - Advanced Encryption Standard
+Current standard for symmetric block encryption.
+
+Three key lengths of 128, 192 and 256 bits respectively.
+
+Iterations: 10, 12 or 14
+
+One key is the private key and the other key is the public key.
+### Block
+
+### Stream
+
 ## Policies
 Internal and external rules for organisations.
 
