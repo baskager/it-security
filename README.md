@@ -73,8 +73,126 @@ Internal and external rules for organisations.
 
 Laws, certifications, "common sense", company policy.
 
+## Hashing
+Ensure integrity and slightly ensure confidentiality.
+
+### Hash collisions
+When two differing inputs result into the same hash value or when a block has a pre-defined hash value.
+
+The resilliance against hash collisions defines the integrity of a hash functions. 
+
+### CRC
+Cyclic Redundancy Check and error correction
+
+### Checksums
+Quick and computationally efficient way to verify file integrity.
+
+### Crypto-hash
+Is cryptographically secure, needs more processing power and time.
 ## Products
 Implementations of Primivites and Policies. Software hardware and behaviour.
 
 End goal is a safer organisation.
+
+# Standards and certification
+
+## Requirements
+Every measurement needs a reason, these reasons are called "requirements".
+
+There are three kinds of requirements:
+- Requirements mandated by law
+- Contractual requirements
+- Risk analysis
+
+## Industry specific standards
+
+## ISO 27001
+International standard for Information Security.
+
+Defines how to establish and maintain an ISMS (Information Security Management System).
+
+### Threat landscape
+
+
+### Risk assesment
+Part of ISO 27001 and PDCA, asses the risks in your organisation and describe how to act upon them.
+
+When assessing risks, chance and impact are kept in mind.
+
+### Plan
+Plan how you wish to establish the measures described in the standard, define the scope and of the organization etc.
+### Do
+Implement solutions to problems, using new methods. 
+### Check
+Measure performance and compare the new methods with the old methods.
+### Act
+Look for the best solutions and integrate new methods organisation processes
+
+### Identity and authentication management
+#### Identity
+Who you are
+#### Authentication
+How you prove your identity
+
+#### Identity management
+Starts with screening employees: Certificate of conduct, identity check etc.
+
+#### Authentication management
+By using several factors, for example:
+- By what you know
+- By what you have
+- By what you are
+
+#### Role/rights management
+#### Access Control Lists (ACL)
+Every object that needs security has its own list of authorized users and what they are allowed to do
+
+**pro:** Simpel to understand and easy to implement
+
+**con:** Decentralised, hard to maintain
+
+#### Role Based Access Control (RBAC)
+Every object that needs security is assigned one or multiple roles. Users are given these roles, when a user has the required role it is allowed access.
+
+#### Attribute Based Access Control (ABAC)
+Access control based on the context of the user
+#### Graph Based Access Control (GBAC)
+Access control based on a workflow
+
+### Change management
+Increasing security always causes more complexirt in an organisation
+
+Timely communication and agreements prevent a lot of hassle.
+
+# Products
+The combination of primitives and policies.
+
+"The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards." ~ Gene Spafford
+
+A password is a product because it has policies to uphold to but it is also a primitive.
+
+# TLS
+Transport Layer Security
+
+Uses asymmetric encryption to identify servers and exchange keys. Exchanged keys are used for a symmetricly encrypted session. 
+
+Was called Secure Sockets Layer / SSL until 1999
+
+## Certificates
+
+## Public Key Infrastructure
+1. User generates a keypair and adds identifying data to the public part. 
+2. The private key remains on the computer, public key is sent to the CA as a "Certificate Signing Request".
+3. The CA encrypts the CSR with the private key and sends this back. It is now a certificate.
+4. User places the encrypted certificate on the website.
+5. Website user downloads the certificate and decrypts it with the Operating Systems public key from the CA.
+
+## VPN
+Virtual Private Network
+
+# Software 
+## Secure coding principles
+
+# PDCA cycle
+Plan Do Check Act
 
